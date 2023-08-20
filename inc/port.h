@@ -10,51 +10,51 @@
 
 #include <stdint.h>
 
-/** \brief PORT P00 register base address */
+/** \brief PORT P00 registers base address */
 #define PORT_P00_ADDR 0xF003A000u
-/** \brief PORT P01 register base address */
+/** \brief PORT P01 registers base address */
 #define PORT_P01_ADDR 0xF003A100u
-/** \brief PORT P02 register base address */
+/** \brief PORT P02 registers base address */
 #define PORT_P02_ADDR 0xF003A200u
-/** \brief PORT P10 register base address */
+/** \brief PORT P10 registers base address */
 #define PORT_P10_ADDR 0xF003AA00u
-/** \brief PORT P11 register base address */
+/** \brief PORT P11 registers base address */
 #define PORT_P11_ADDR 0xF003AB00u
-/** \brief PORT P12 register base address */
+/** \brief PORT P12 registers base address */
 #define PORT_P12_ADDR 0xF003AC00u
-/** \brief PORT P13 register base address */
+/** \brief PORT P13 registers base address */
 #define PORT_P13_ADDR 0xF003AD00u
-/** \brief PORT P14 register base address */
+/** \brief PORT P14 registers base address */
 #define PORT_P14_ADDR 0xF003AE00u
-/** \brief PORT P15 register base address */
+/** \brief PORT P15 registers base address */
 #define PORT_P15_ADDR 0xF003AF00u
-/** \brief PORT P20 register base address */
+/** \brief PORT P20 registers base address */
 #define PORT_P20_ADDR 0xF003B400u
-/** \brief PORT P21 register base address */
+/** \brief PORT P21 registers base address */
 #define PORT_P21_ADDR 0xF003B500u
-/** \brief PORT P22 register base address */
+/** \brief PORT P22 registers base address */
 #define PORT_P22_ADDR 0xF003B600u
-/** \brief PORT P23 register base address */
+/** \brief PORT P23 registers base address */
 #define PORT_P23_ADDR 0xF003B700u
-/** \brief PORT P24 register base address */
+/** \brief PORT P24 registers base address */
 #define PORT_P24_ADDR 0xF003B800u
-/** \brief PORT P25 register base address */
+/** \brief PORT P25 registers base address */
 #define PORT_P25_ADDR 0xF003B900u
-/** \brief PORT P26 register base address */
+/** \brief PORT P26 registers base address */
 #define PORT_P26_ADDR 0xF003BA00u
-/** \brief PORT P30 register base address */
+/** \brief PORT P30 registers base address */
 #define PORT_P30_ADDR 0xF003BE00u
-/** \brief PORT P31 register base address */
+/** \brief PORT P31 registers base address */
 #define PORT_P31_ADDR 0xF003BF00u
-/** \brief PORT P32 register base address */
+/** \brief PORT P32 registers base address */
 #define PORT_P32_ADDR 0xF003C000u
-/** \brief PORT P33 register base address */
+/** \brief PORT P33 registers base address */
 #define PORT_P33_ADDR 0xF003C100u
-/** \brief PORT P34 register base address */
+/** \brief PORT P34 registers base address */
 #define PORT_P34_ADDR 0xF003C200u
-/** \brief PORT P40 register base address */
+/** \brief PORT P40 registers base address */
 #define PORT_P40_ADDR 0xF003C800u
-/** \brief PORT P41 register base address */
+/** \brief PORT P41 registers base address */
 #define PORT_P41_ADDR 0xF003C900u
 
 /** \name PORT OUT register */
