@@ -2,6 +2,7 @@
 
 #include <port.h>
 #include <scu.h>
+#include <stm.h>
 
 void unprotect_wdtscon0(void);
 void unprotect_eicon0(void);
@@ -195,11 +196,10 @@ void blink_loop(void)
 	/* Configure P33.4 as general-purpose output */
 	PORT_P33_IOCR4.B.PC4 = 0x10u;
 
-	/* Toggle P33.4 output value at roughly 6Hz */
+	/* Toggle P33.4 output value at roughly 6Hz (= 100MHz / 2^24) */
 	while (1)
 	{
 		PORT_P33_OUT.B.P4 =
-			(*((volatile uint32_t*) 0xF0001010u) & 0x01000000u)
-				? 0x1u : 0x0u;
+			(STM0_TIM0 & (1u << 24)) ? 0x1u : 0x0u;
 	}
 }

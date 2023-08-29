@@ -947,6 +947,7 @@ INPUT                  = LICENSE.md \
                          README.md \
                          inc/port.h \
                          inc/scu.h \
+                         inc/stm.h \
                          src/blinky.c
 
 # This tag can be used to specify the character encoding of the source files
